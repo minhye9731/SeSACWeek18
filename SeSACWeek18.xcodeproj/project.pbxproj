@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0500002913628B00D8255E /* SubscriptExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E05FFFF2913628B00D8255E /* SubscriptExample.swift */; };
+		0E05FFF7291351D600D8255E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E05FFF6291351D600D8255E /* Network.swift */; };
+		0E05FFF9291352FD00D8255E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E05FFF8291352FD00D8255E /* ProfileViewModel.swift */; };
+		0E05FFFC291353E900D8255E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0E05FFFB291353E900D8255E /* RxCocoa */; };
+		0E05FFFE291353E900D8255E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0E05FFFD291353E900D8255E /* RxSwift */; };
 		0E4E847A2911FDDE0051F6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E84792911FDDE0051F6EB /* AppDelegate.swift */; };
 		0E4E847C2911FDDE0051F6EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E847B2911FDDE0051F6EB /* SceneDelegate.swift */; };
 		0E4E847E2911FDDE0051F6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E847D2911FDDE0051F6EB /* ViewController.swift */; };
@@ -19,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E05FFF6291351D600D8255E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0E05FFF8291352FD00D8255E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		0E05FFFF2913628B00D8255E /* SubscriptExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptExample.swift; sourceTree = "<group>"; };
 		0E4E84762911FDDE0051F6EB /* SeSACWeek18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4E84792911FDDE0051F6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E4E847B2911FDDE0051F6EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E05FFFE291353E900D8255E /* RxSwift in Frameworks */,
+				0E05FFFC291353E900D8255E /* RxCocoa in Frameworks */,
 				0E4E848F29120A0E0051F6EB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,10 +76,12 @@
 				0E4E84792911FDDE0051F6EB /* AppDelegate.swift */,
 				0E4E847B2911FDDE0051F6EB /* SceneDelegate.swift */,
 				0E4E847D2911FDDE0051F6EB /* ViewController.swift */,
+				0E05FFF8291352FD00D8255E /* ProfileViewModel.swift */,
 				0E4E847F2911FDDE0051F6EB /* Main.storyboard */,
 				0E4E84822911FDE00051F6EB /* Assets.xcassets */,
 				0E4E84842911FDE00051F6EB /* LaunchScreen.storyboard */,
 				0E4E84872911FDE00051F6EB /* Info.plist */,
+				0E05FFFF2913628B00D8255E /* SubscriptExample.swift */,
 			);
 			path = SeSACWeek18;
 			sourceTree = "<group>";
@@ -79,6 +91,7 @@
 			children = (
 				0E4E849129120EFE0051F6EB /* APIService.swift */,
 				0E4E849329121BE00051F6EB /* Endpoint.swift */,
+				0E05FFF6291351D600D8255E /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -101,6 +114,8 @@
 			name = SeSACWeek18;
 			packageProductDependencies = (
 				0E4E848E29120A0E0051F6EB /* Alamofire */,
+				0E05FFFB291353E900D8255E /* RxCocoa */,
+				0E05FFFD291353E900D8255E /* RxSwift */,
 			);
 			productName = SeSACWeek18;
 			productReference = 0E4E84762911FDDE0051F6EB /* SeSACWeek18.app */;
@@ -132,6 +147,7 @@
 			mainGroup = 0E4E846D2911FDDE0051F6EB;
 			packageReferences = (
 				0E4E848D29120A0E0051F6EB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0E05FFFA291353E900D8255E /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 0E4E84772911FDDE0051F6EB /* Products */;
 			projectDirPath = "";
@@ -162,9 +178,12 @@
 			files = (
 				0E4E847E2911FDDE0051F6EB /* ViewController.swift in Sources */,
 				0E4E847A2911FDDE0051F6EB /* AppDelegate.swift in Sources */,
+				0E05FFF7291351D600D8255E /* Network.swift in Sources */,
 				0E4E849229120EFE0051F6EB /* APIService.swift in Sources */,
+				0E0500002913628B00D8255E /* SubscriptExample.swift in Sources */,
 				0E4E847C2911FDDE0051F6EB /* SceneDelegate.swift in Sources */,
 				0E4E849429121BE00051F6EB /* Endpoint.swift in Sources */,
+				0E05FFF9291352FD00D8255E /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +405,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0E05FFFA291353E900D8255E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		0E4E848D29120A0E0051F6EB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -397,6 +424,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0E05FFFB291353E900D8255E /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E05FFFA291353E900D8255E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		0E05FFFD291353E900D8255E /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E05FFFA291353E900D8255E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
 		0E4E848E29120A0E0051F6EB /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0E4E848D29120A0E0051F6EB /* XCRemoteSwiftPackageReference "Alamofire" */;
